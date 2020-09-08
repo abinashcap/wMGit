@@ -2,11 +2,11 @@
 <html>
 <head>
 <link type="text/css" rel="stylesheet" href="addintegers.css">
-<title>Add Two Numbers</title>
+<title>Add Two Numbers.</title>
 </head>
 <body>
 <%@page import="com.addints.AddIntegers"%>
-<h1>Add Two Numbers</h1>
+<h1>Add Two Numbers.</h1>
 <%AddIntegers addInts = new AddIntegers();%>
 <%! String num1="", num2="", result = ""; %>
 <%
