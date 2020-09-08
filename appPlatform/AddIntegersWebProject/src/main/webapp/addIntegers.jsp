@@ -30,8 +30,8 @@ result="";
 <label for="equal">=</label>
 <input class="txtfield" type="text" name="result" value="<%=result%>" disabled>
 <br/>
-<input type="submit" name="add" value="Add">
-<input type="submit" name="clear" value="Clear">
+<input type="submit" name="ADD" value="Add">
+<input type="submit" name="CLEAR" value="Clear">
 </form>
 </div>
 </body>
