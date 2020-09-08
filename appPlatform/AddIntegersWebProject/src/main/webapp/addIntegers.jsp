@@ -2,11 +2,11 @@
 <html>
 <head>
 <link type="text/css" rel="stylesheet" href="addintegers.css">
-<title>Add Two Numbers</title>
+<title>Add Two Numbers.</title>
 </head>
 <body>
 <%@page import="com.addints.AddIntegers"%>
-<h1>Add Two Numbers</h1>
+<h1>Add Two Numbers.</h1>
 <%AddIntegers addInts = new AddIntegers();%>
 <%! String num1="", num2="", result = ""; %>
 <%
@@ -24,9 +24,9 @@ result="";
 <form id="addItemForm" action="addIntegers.jsp" method="POST">
 <label for="currentdate"><%=addInts.getCurrentDate()%></label>
 <br/>
-<input class="txtfield" type="text" name="integer1" value=<%=num1%>>
+<input class="txtfield" type="text" name="int1" value=<%=num1%>>
 <label for="add">+</label>
-<input class="txtfield" type="text" name="integer2" value=<%=num2%>>
+<input class="txtfield" type="text" name="int2" value=<%=num2%>>
 <label for="equal">=</label>
 <input class="txtfield" type="text" name="result" value="<%=result%>" disabled>
 <br/>
