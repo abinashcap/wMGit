@@ -1,6 +1,0 @@
-{
-  "name": "vitality-pointscalc",
-  "version": "6.21.0",
-  "custom_docker_images": ["vitality-pointscalc"],
-  "build_output" : "vitality-pointscalc-ear/target/vitality-pointscalc-ear.ear"
-}
